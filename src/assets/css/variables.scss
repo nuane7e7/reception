@@ -1,2 +1,13 @@
 $bgHeader:#ec293c;
 $colorHeader: #fff;
+
+
+
+
+
+
+
+@mixin rhythm($height,$name) {
+  height: $height;
+   animation: $name 1s 0.2s ease infinite;
+}
